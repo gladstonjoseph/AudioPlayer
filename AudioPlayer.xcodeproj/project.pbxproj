@@ -14,6 +14,8 @@
 		7602F3B1221D56D600B6D451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7602F3AF221D56D600B6D451 /* LaunchScreen.storyboard */; };
 		7602F3BC221D56D600B6D451 /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602F3BB221D56D600B6D451 /* AudioPlayerTests.swift */; };
 		7602F3C7221D56D600B6D451 /* AudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602F3C6221D56D600B6D451 /* AudioPlayerUITests.swift */; };
+		7602F3D5221D579B00B6D451 /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7602F3D4221D579B00B6D451 /* sheep.mp3 */; };
+		7602F3D7221D5BAA00B6D451 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7602F3D6221D5BAA00B6D451 /* Bach.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7602F3C2221D56D600B6D451 /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7602F3C6221D56D600B6D451 /* AudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITests.swift; sourceTree = "<group>"; };
 		7602F3C8221D56D600B6D451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7602F3D4221D579B00B6D451 /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
+		7602F3D6221D5BAA00B6D451 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7602F3A6221D56D600B6D451 /* AppDelegate.swift */,
 				7602F3A8221D56D600B6D451 /* ViewController.swift */,
 				7602F3AA221D56D600B6D451 /* Main.storyboard */,
+				7602F3D4221D579B00B6D451 /* sheep.mp3 */,
+				7602F3D6221D5BAA00B6D451 /* Bach.jpg */,
 				7602F3AD221D56D600B6D451 /* Assets.xcassets */,
 				7602F3AF221D56D600B6D451 /* LaunchScreen.storyboard */,
 				7602F3B2221D56D600B6D451 /* Info.plist */,
@@ -229,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7602F3D5221D579B00B6D451 /* sheep.mp3 in Resources */,
 				7602F3B1221D56D600B6D451 /* LaunchScreen.storyboard in Resources */,
+				7602F3D7221D5BAA00B6D451 /* Bach.jpg in Resources */,
 				7602F3AE221D56D600B6D451 /* Assets.xcassets in Resources */,
 				7602F3AC221D56D600B6D451 /* Main.storyboard in Resources */,
 			);
@@ -433,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55UNRMT6U5;
+				DEVELOPMENT_TEAM = 5CYJ5GBG2Y;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55UNRMT6U5;
+				DEVELOPMENT_TEAM = 5CYJ5GBG2Y;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
